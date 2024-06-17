@@ -1,0 +1,59 @@
+/* Name: Lovepreet Singh
+   Student number: 8971798  */
+
+   body {
+    width: 100%;
+    max-width: 1100px;
+
+    margin: 0 auto;
+
+    font:15px/1.5 Arial, sans-serif;
+    padding: 25px;
+   }
+
+   .header-footer {
+
+    border: 1px solid #bd8a8a;
+    border-radius: 15px;
+    padding: 10px 10px;
+    margin-bottom: 20px;
+   }
+
+   h1 {
+    color: #e71550;
+    font-variant: small-caps;
+   }
+   h2 {
+    color: #1d8e8e;
+    font-variant: small-caps;
+   }
+
+   footer p {
+    font-size: 15px;
+    color: #fa7e0b;
+   }
+
+   main {
+    width: 66.66%;
+    float: left;
+    padding: 20px;
+    margin: 0 20px 20px 0;
+   }
+
+   aside {
+    width: 33.33%;
+    float: left;
+    padding: 10px;
+    margin: 0 0 20px 20px;
+    
+   }
+
+   .content::after {
+    content: "";
+    display: table;
+    clear: both;
+   }
+
+   .right-margin {
+    margin-right: 90px;
+   }
